@@ -1,0 +1,66 @@
+body {
+  background: white;
+}
+
+header {
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+header section {
+  background-image: url('../images/strength-training.gif');
+}
+
+header a img {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+ul {
+  margin-bottom: 250px;
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  background-color: blue;
+  border: 2px dashed darkblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 24px;
+  text-decoration: wavy;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover:visited {
+  color: pink;
+}
+
+p {
+  color: green;
+}
+
+.one {
+  color: pink;
+}
+
+p.one {
+  color: purple;
+}
